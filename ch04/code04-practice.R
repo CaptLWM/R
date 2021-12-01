@@ -44,7 +44,7 @@ names(weight[weight==a])
 wether = c('여름','봄','여름','겨울','봄','겨울','여름','여름','봄','가을')
 wether = factor(wether)
 unique(wether)
-
+levels(wether)
 #10
 country = c('호주','독일','영국','일본','미국','중국','호주','영국','중국','일본','터키','미국','중국','중국','호주','터키','독일','일본','중국','독일')
 country = factor(country)
